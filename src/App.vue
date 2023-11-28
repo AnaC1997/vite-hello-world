@@ -12,13 +12,17 @@ export default {
 
 <template>
   <div>
-    <H1>Benvenuto!</H1>
+    <AppTitle />
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo minus autem dolorem, inventore cum quae doloremque nesciunt excepturi delectus quis pariatur aperiam nulla blanditiis rerum dolore nobis eveniet odit tempore?</p>
+    <AppHero />
+
   </div>
-  <AppTitle />
-  <AppHero />
 </template>
 
 <style scoped>
 
 
+p{
+  background-color: red;
+}
 </style>
